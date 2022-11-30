@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <!-- *------------------------------------BEM-------------------------------------------------------* -->
+        <a href="index.html">
+            <!-- texto alternativo "alt" aparece en caso de no paarecer la imgn y ayuda en el posicionamiento -->
+                <img class="header__logo" src="./img/logo.png " alt="logotipo">
+            </a>
+    </header>
+    <nav class="navegacion">
+        <a class="navegacion__enlace " href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+
+    </nav>
+ 
+    <main class="contenedor">
+        <h1>Nosotros</h1>
+        <div class="nosotros">
+            <div class="nosotros__contenido">
+                <p>Empresa familiar iniciada en 2020 en el partido de La Matanza.</p>
+                <p>Diseñamos las mejores remeras personalizadas y de gran calidad en el mercado. Nos enfocamos en un diseño tecnológico, porque nos apasiona el Desarrollo Web y nos da orgullo representarlo.</p>
+                <p>Este emprendimiento comenzó con la necesidad nuestra de tener una linda remera de las tecnologías que amamos y de calidad para llevarla puesta todos los dias. Al no quedarnos satisfechos con lo que encontrábamos, decidimos crearlas nosotros mismos dándole un estilo único.</p>
+            </div>
+            <img class="nosotros__imagen" src="img/nosotros.jpg" alt="imagen nosotros">
+
+        </div>
+    </main>
+
+    <section class="contenedor comprar">
+        <h2 class="comprar__titulo">¿Por qué comprar con nosotros?</h2>
+        <div class="bloques">
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_1.png" alt="por que comprar">
+                <h3 class="bloque__titulo">El mejor precio</h3>
+                <p>Remeras precio-calidad. Si querés una remera económica y de calidad no dudes en elegirnos.</p>
+            </div> <!--.bloque-->
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_2.png" alt="por que comprar">
+                <h3 class="bloque__titulo">Para Devs</h3>
+                <p>Si sos un Desarrollador/a esta opción te encatará.</p>
+            </div> <!--.bloque-->
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_3.png" alt="por que comprar">
+                <h3 class="bloque__titulo">Envio gratis</h3>
+                <p>Elegí las que más te gusten y te la enviaremos gratis a tu casa.</p>
+            </div> <!--.bloque-->
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_4.png" alt="por que comprar">
+                <h3 class="bloque__titulo">La mejor calidad</h3>
+                <p>Las remeras están confeccionadas con una tela de alta calidad y costura resistentes. Las estampas no se van con los lavados.</p>
+            </div> <!--.bloque-->
+
+        </div> <!--.bloques-->
+ 
+    </section>
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos reservados 2022</p>
+    </footer>
+    
+</body>
+</html> 
